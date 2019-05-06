@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Barlow:700,500,300,100|Barlow+Condensed" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="index.css">
+
  
 </head>
 <body>
@@ -29,31 +30,15 @@
     </ul>
 
 <!-- HEADER -->
-    <div class="container-fluid">
-        <img src="./assets/BrainIllustration.png" class="img-fluid" alt="illustration"/>        
-    </div>
+  <div class="header">
+        <img src="./assets/BrainIllustrationCrop.png" class="brain" alt="illustration"/>       
+        <img src="./assets/TS logo.svg"  class="tsLogo"/>
+  </div>
+  <div class="words">             
+          <h3 id="hello">Hello and welcome to my portfolio site.</h3>
+          <p class="lead-intro">I'm an aspiring junior JavaScript developer with a long history of creative design solutions. Now I want to take my skills to the next level and deliver the whole package—intelligently designed interactive websites  that I produce from start to finish.</p>
+  </div>
 
-    <div class="container-fluid">
-        <img src="./assets/TS-Venn-diagram-4.svg"  class="img-fluid2 "/>
-    </div>
-    <!-- <div class="container-fluid text-center">
-      <div class="row">
-      </div>
-        <div class="row">
-        <div class="col-2" id="spacer">
-        </div>
-        <div class="col-8">
-          <p class="lead-intro">
-
-            <br><br><br><br><br><br><br><br>
-            
-            <strong>Hello and welcome to my portfolio site.</strong><br>I'm an aspiring junior JavaScript developer with a long history of creative design solutions. Now I want to take my skills to the next level and deliver the whole package—intelligently designed interactive websites that I produce from start-to-finish.</p>
-        </div>
-        <div class="col-2">
-            <br>
-          </div>
-    </div>
-  </div> -->
 
 
 <!-- ABOUT ME -->
@@ -82,17 +67,16 @@
     <div class="container-fluid bg-3 text-center"><a id="projects"></a> 
             <h1 class="display-4" style="color:#7654a3">Projects</h1>
             <div class="row-Work no-gutters">
- 
-           
+              
                 <div class="card" style="width: 16rem;">
-                    <a href="https://codepen.io/tracysmart/pen/ZZyVVQ"><img src="assets/cssCreaturePig.png" alt="Image" class="card-img-top" alt="webpage"></a>
+                    <a href="https://codepen.io/tracysmart/pen/ZZyVVQ" target="_blank"><img src="assets/cssCreaturePig.png" alt="Image" class="card-img-top" alt="webpage"></a>
                     <div class="card-body">
                       <p class="card-text">CSS Creature<br> Javascript PT 2019</p>
                     </div>
                   </div>
 
                 <div class="card" style="width: 16rem;">
-                    <a href="https://tracysmart.github.io/tutorialPage/">
+                    <a href="https://tracysmart.github.io/tutorialPage/" target="_blank">
                     <img src="assets/jsTutorialThumbnail.png" alt="Image" class="card-img-top" alt="webpage"></a>
                     <div class="card-body">
                         <p class="card-text">Tutorial Webpage<br> Javascript PT 2019</p>
@@ -109,53 +93,24 @@
     </div>
   
     <!-- CONTACT -->
-      
-    <div class="container-fluid text-center" style="background-color: #fadac1"> <a id="contact"></a> 
-        <h1 class="display-4" style="color: #f57e20">Contact Me</h1>
-        <p>If you'd like to get in touch, please fill in your name, email and message in the fields below:</p>
+    <div class="jumbotron-fluid2">
+        <h1 class="display-4" id="contact">Contact Me</h1>
+        <p class="lead text-center">If you'd like to get in touch, please fill in your name, email and message in the fields below:</p>
+      <div class="col-12 form-group">
+        <input type="text" placeholder="Your Name" class="form-control rounded-pill" id="usr" name="name">
+        <input type="text" placeholder="Your Email" text="muted" class="form-control rounded-pill" id="usr" name="email">
+        <textarea class="form-control" placeholder="Your Comment" rows="5" id="comment" name=></textarea>
+        <input class="btn btn-primary rounded-pill" id="submitButton" form action="https://formspree.io/tracy.smart@att.net" method="POST" type="submit" value="Submit">
       </div>
-    
-      <div class="container-fluid contact">
-        <form>
-         
-          <div class="row">
-          <div class="col-2">
-          </div>
-          <div class="col-4 form-group">
-            <label for="usr">Name:</label>
-            <input type="text" class="form-control rounded-pill" id="usr">
-          </div>
-          <div class="col-4 form-group">
-            <label for="usr">Email:</label>
-            <input type="text" class="form-control rounded-pill" id="usr">
-          </div>
-        </div>
-          <div class="col-2">
-            
-          </div>
-        </form>
-        <div class="row">
-            <div class="col-2">
-              </div>
-        <div class="col-8 form-group">
-            <label for="comment">Message:</label>
-            <textarea class="form-control" rows="5" id="comment"></textarea>
-            <div class="row">
-              <div class="col-10"></div>
-              <div class="col">
+      <div class="col-12 text-center">
+        <a href="https://www.linkedin.com/in/tracysmartdesign/" target="_blank"><img src="assets/linked-in.png" class="social-buttons"></a>
+        <a href="https://github.com/tracysmart" target="_blank"><img src="assets/github.png" class="social-buttons"></a> 
+        <a href="https://www.behance.net/tracysmart/" target="_blank"><img src="assets/behance.png" class="social-buttons"></a>
+      </div>
 
-              <input class="btn btn-primary rounded-pill" action="mailto:tracy.smart@att.net" type="submit" value="Submit" >
-              </div>
-            </div>
-        </div>
-              <div class="col-2">
-                <div class="container-fluid text-center">
-                  <a href="https://www.linkedin.com/in/tracysmartdesign/"><img src="assets/linked-in.png" class="social-buttons"></a><br><br>
-                  <a href="https://www.linkedin.com/in/tracysmartdesign/"><img src="assets/github.png" class="social-buttons"></a>
-                </div> 
-              </div>
-        </div>
-      </div>
+    </div>
+
+
 
       <!-- FOOTER -->
       <div class="container-fluid footer">
@@ -165,7 +120,7 @@
             </div>
           </div>
         </div>
-   
+    
 
  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
