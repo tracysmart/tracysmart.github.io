@@ -182,19 +182,16 @@ img {
 }
 
 .btn {
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: var(--orange);
     border: 2px solid white;
-}
-
-.btn-primary {
+    width: 140px;
+    height: 50px;
+    color: white;
+    text-align: center;
     font-size: 1em; 
 }
 
-.submitButton {
-    text-align: right;
-
-}
 
 .rt-margin {
    padding-right: 2%;
